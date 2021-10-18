@@ -2,9 +2,70 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title></title>
+	<title>Návody do Minecraftu</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+		* {
+		  box-sizing: border-box;
+		}
+
+		body {
+		  font-family: Arial, Helvetica, sans-serif;
+		}
+		.hlavicka {
+		  background-color: forestgreen;
+		  padding: 5px;
+		  text-align: center;
+		  font-size: 20px;
+		}
+
+		.riadok {
+		  display: -webkit-flex;
+		  display: flex;
+		}
+
+		.stlpec {
+		  padding: 5px;
+		  min-height: 900px;
+		  min-width: 50px;
+		}
+
+		.stlpec.lavy{
+		   -webkit-flex: 1;
+		   -ms-flex: 1;
+		  flex: 1;
+		}
+
+		.stlpec.pravy {
+		  -webkit-flex: 6;
+		  -ms-flex: 6;
+		  flex: 6;
+		  }
+
+		@media (max-width: 120px) {
+		  .riadok {
+		    -webkit-flex-direction: stlpec;
+		    flex-direction: stlpec;
+		  }
+		}
+	</style>
 </head>
 <body>
-<p>test githabu</p>
+	<div class="hlavicka">
+		<h1>Návody do Minecraftu</h1>
+	</div>
+	<div class="riadok">
+		<div class="stlpec lavy" style="background-color: royalblue;">
+			<div>
+				<p>Domov</p>
+				<p>Návody</p>
+				<p>Typy na servery</p>
+				<p>Užitočné linky</p>
+				<p>O Autorovi</p>
+			</div>
+		</div>
+		<div class="stlpec pravy" style="background-image: url('Obrazky/minecraft-pozadie.jpg');">
+		</div>
+	</div>
 </body>
 </html>
