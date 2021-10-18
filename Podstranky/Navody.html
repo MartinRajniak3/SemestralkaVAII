@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Navody</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+		* {
+		  box-sizing: border-box;
+		}
+		.nadpis {
+			text-align: center;
+			font-size: 25px;
+		} 
+		.StylObrazka {
+			margin-right: auto;
+			margin-left: auto;
+			display: block;
+			width: 70%;
+		}
+
+		body {
+		  font-family: Arial, Helvetica, sans-serif;
+		}
+		.hlavicka {
+		  background-color: forestgreen;
+		  padding: 5px;
+		  text-align: center;
+		  font-size: 20px;
+		}
+
+		.riadok {
+		  display: -webkit-flex;
+		  display: flex;
+		}
+
+		.stlpec {
+		  padding: 5px;
+		  min-height: 900px;
+		  min-width: 50px;
+		}
+
+		.stlpec.lavy{
+		   -webkit-flex: 1;
+		   -ms-flex: 1;
+		  flex: 1;
+		}
+
+		.stlpec.pravy {
+		  -webkit-flex: 6;
+		  -ms-flex: 6;
+		  flex: 6;
+		  }
+
+		@media (max-width: 120px) {
+		  .riadok {
+		    -webkit-flex-direction: stlpec;
+		    flex-direction: stlpec;
+		  }
+		}
+	</style>
+</head>
+<body>
+	<div class="hlavicka">
+		<h1>Navody</h1>
+	</div>
+	<div class="riadok">
+		<div class="stlpec lavy" style="background-color: royalblue;">
+			<div>
+				<p><a href="../HlavnaStranka.html">Domov</a></p>
+				<p> <a href="Navody.html">Návody</a></p>
+				<p><a href="TypyNaServery.html">Typy na servery</a></p>
+				<p><a href="UzitocneLinky.html">Užitočné linky</a></p>
+				<p><a href="OAutorovi.html">O Autorovi</a></p>
+			</div>
+		</div>
+		<div class="stlpec pravy" style= "background-color: antiquewhite;">
+			<p class="nadpis">Villager Farma</p>
+			<p>Na farmu potrebujeme:</p>
+			<img class="StylObrazka" src="../Obrazky/VF1.png">
+			<p>Postavíme 12X12 štvorec, Tip. Výpočty sa dajú robiť pomocou faklí (torch), tak ako na obrázku</p>
+			<img class="StylObrazka" src="../Obrazky/VF2.png">
+			<p>Výška stavby je 4 blocky</p>
+			<img class="StylObrazka" src="../Obrazky/VF3.png">
+			<p>Do rámu vložíme dvere</p>
+			<img class="StylObrazka" src="../Obrazky/VF4.png">
+			<p>Do vnutra za dverami postavime blocky, a do trávy vložíme vodu ako na obrazku aby bola rovnomerne zavlchčená zem. </p>
+			<img class="StylObrazka" src="../Obrazky/VF5.png">
+			<p>Na vodu položime koberce aby sa villigari, nezasekli vo vode </p>
+			<img class="StylObrazka" src="../Obrazky/VF6.png">
+			<p>Zasadníme semiačka </p>
+			<img class="StylObrazka" src="../Obrazky/VF7.png">
+			<p>Na záver môžme dať na vrch sklo aby bolo vidno dnu, či farma funguje. </p>
+			<img class="StylObrazka" src="../Obrazky/VF8.png">
+
+
+
+		</div>
+	</div>
+</body>
+</html>
