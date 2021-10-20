@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<meta charset="utf-8">
 	<title>O Autorovi</title>
@@ -42,28 +42,26 @@
 		  display: flex;
 		}
 
-		.stlpec {
+		.column {
 		  padding: 5px;
-		  min-height: 900px;
-		  min-width: 50px;
 		}
 
-		.stlpec.lavy{
+		.column.lavy{
 		   -webkit-flex: 1;
 		   -ms-flex: 1;
 		  flex: 1;
 		}
 
-		.stlpec.pravy {
+		.column.pravy {
 		  -webkit-flex: 6;
 		  -ms-flex: 6;
 		  flex: 6;
 		  }
 
-		@media (max-width: 120px) {
+		@media (max-width: 570px) {
 		  .riadok {
-		    -webkit-flex-direction: stlpec;
-		    flex-direction: stlpec;
+		    -webkit-flex-direction: column;
+		    flex-direction: column;
 		  }
 		}
 	</style>
@@ -73,7 +71,7 @@
 		<h1>O Autorovi</h1>
 	</div>
 	<div class="riadok">
-		<div class="stlpec lavy" style="background-color: royalblue;">
+		<div class="column lavy" style="background-color: royalblue;">
 			<div>
 				<p><a href="../HlavnaStranka.html">Domov</a></p>
 				<p> <a href="Navody.html">Návody</a></p>
@@ -82,15 +80,15 @@
 				<p><a href="OAutorovi.html">O Autorovi</a></p>
 			</div>
 		</div>
-		<div class="stlpec pravy" style="background-color: orangered;">
+		<div class="column pravy" style="background-color: orangered;">
 			<p class="nadpis">Kto som?</p>
 			<p class="stylTextu">Som študentom FRI uniza, tretieho ročníka bakalárskeho štúdia. Vo svojom voľnom čase hrám počítačove hry, a Minecraft je hra ktorú hrám už vyše 10 rokov. Nasledujúce fotky sú len malé projetky, ktoré som buď staval ja sám alebo som bol ich súčasťou.</p>
-			<img class="StylObrazka2" src="../Obrazky/P1.png">
-			<img class="StylObrazka1" src="../Obrazky/P2.png">
-			<img class="StylObrazka2" src="../Obrazky/P3.png">
-			<img class="StylObrazka1" src="../Obrazky/P4.png">
-			<img class="StylObrazka2" src="../Obrazky/P5.png">
-			<img class="StylObrazka1" src="../Obrazky/P6.png">
+			<img class="StylObrazka2" src="../Obrazky/P1.png" alt= " 1. obrázok">
+			<img class="StylObrazka1" src="../Obrazky/P2.png" alt= " 2. obrázok">
+			<img class="StylObrazka2" src="../Obrazky/P3.png" alt= " 3. obrázok">
+			<img class="StylObrazka1" src="../Obrazky/P4.png" alt= " 4. obrázok">
+			<img class="StylObrazka2" src="../Obrazky/P5.png" alt= " 5. obrázok">
+			<img class="StylObrazka1" src="../Obrazky/P6.png" alt= " 6. obrázok">
 		</div>
 	</div>
 </body>

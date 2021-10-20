@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<meta charset="utf-8">
 	<title>Typy na servery</title>
@@ -34,26 +34,24 @@
 
 		.stlpec {
 		  padding: 5px;
-		  min-height: 900px;
-		  min-width: 50px;
 		}
 
-		.stlpec.lavy{
+		.column.lavy{
 		   -webkit-flex: 1;
 		   -ms-flex: 1;
 		  flex: 1;
 		}
 
-		.stlpec.pravy {
+		.column.pravy {
 		  -webkit-flex: 6;
 		  -ms-flex: 6;
 		  flex: 6;
 		  }
 
-		@media (max-width: 120px) {
+		@media (max-width: 570px) {
 		  .riadok {
-		    -webkit-flex-direction: stlpec;
-		    flex-direction: stlpec;
+		    -webkit-flex-direction: column;
+		    flex-direction: column;
 		  }
 		}
 	</style>
@@ -63,7 +61,7 @@
 		<h1>Typy na servery</h1>
 	</div>
 	<div class="riadok">
-		<div class="stlpec lavy" style="background-color: royalblue;">
+		<div class="column lavy" style="background-color: royalblue;">
 			<div>
 				<p><a href="../HlavnaStranka.html">Domov</a></p>
 				<p> <a href="Navody.html">Návody</a></p>
@@ -72,15 +70,15 @@
 				<p><a href="OAutorovi.html">O Autorovi</a></p>
 			</div>
 		</div>
-		<div class="stlpec pravy" style="background-image: url('../Obrazky/minecraft-pozadie.jpg');">
-			<p  class="nadpis">Vanilla survival 1.12.2</p>
-			<p  class="stylTextu">mc.kastrolcraft.cz</p>
+		<div class="column pravy" style="background-image: url('../Obrazky/minecraft-pozadie.jpg');">
+			<p  class="nadpis">Vanilla survival 1.12.2 /skyblock/ vyššie verzie 1.12+</p>
+			<p  class="stylTextu"><a href="https://kastrolcraft.cz/">mc.kastrolcraft.cz/</a></p>
 			<p  class="nadpis">RPG survival 1.17+</p>
-			<p  class="stylTextu">craftuj.cz</p>
+			<p  class="stylTextu"><a href="https://craftuj.cz/">mc.craftuj.cz</a></p>
 			<p  class="nadpis">Minihry servery 1.12+</p>
-			<p  class="stylTextu">play.survival-games.cz </p>
-			<p  class="stylTextu">eu.mineplex.com </p>
-			<p  class="stylTextu">hypixel.net </p>
+			<p  class="stylTextu"><a href="https://survival-games.cz/">play.survival-games.cz</a></p>
+			<p  class="stylTextu"><a href="https://www.mineplex.com/home/">eu.mineplex.com</a></p>
+			<p  class="stylTextu"><a href="https://hypixel.net/">hypixel.net</a></p>
 		</div>
 	</div>
 </body>

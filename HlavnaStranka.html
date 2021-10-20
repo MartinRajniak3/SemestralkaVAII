@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<meta charset="utf-8">
 	<title>Návody do Minecraftu</title>
@@ -8,7 +8,12 @@
 		* {
 		  box-sizing: border-box;
 		}
-
+		.nadpis {
+			text-align: center;
+			font-size: 50px;
+			margin-top: 270px;
+			margin-bottom: 270px;
+		} 
 		body {
 		  font-family: Arial, Helvetica, sans-serif;
 		}
@@ -24,28 +29,26 @@
 		  display: flex;
 		}
 
-		.stlpec {
+		.column {
 		  padding: 5px;
-		  min-height: 900px;
-		  min-width: 50px;
 		}
 
-		.stlpec.lavy{
+		.column.lavy {
 		   -webkit-flex: 1;
 		   -ms-flex: 1;
 		  flex: 1;
 		}
 
-		.stlpec.pravy {
+		.column.pravy {
 		  -webkit-flex: 6;
 		  -ms-flex: 6;
 		  flex: 6;
 		  }
 
-		@media (max-width: 120px) {
+		@media (max-width: 570px) {
 		  .riadok {
-		    -webkit-flex-direction: stlpec;
-		    flex-direction: stlpec;
+		    -webkit-flex-direction: column;
+		    flex-direction: column;
 		  }
 		}
 	</style>
@@ -55,7 +58,7 @@
 		<h1>Návody do Minecraftu</h1>
 	</div>
 	<div class="riadok">
-		<div class="stlpec lavy" style="background-color: royalblue;">
+		<div class="column lavy" style="background-color: royalblue;">
 			<div>
 				<p><a href="HlavnaStranka.html">Domov</a></p>
 				<p> <a href="Podstranky/Navody.html">Návody</a></p>
@@ -64,7 +67,8 @@
 				<p><a href="Podstranky/OAutorovi.html">O Autorovi</a></p>
 			</div>
 		</div>
-		<div class="stlpec pravy" style="background-image: url('Obrazky/minecraft-pozadie.jpg');">
+		<div class="column pravy" style="background-image: url('Obrazky/minecraft-pozadie.jpg');">
+		<p  class="nadpis">Webová stránka na tipy, triky a návody do hry Minecraft.</p>
 		</div>
 	</div>
 </body>
